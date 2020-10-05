@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+    padding: 10px;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(268deg,#833ab4, #fd1d1d, #fcb045);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+
+.logo {
+    position: relative;
+    font-family: 'Nunito';
+    color: white;
+    font-size: 84px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.subLogo{
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+}
+.app {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    margin: 0 auto;
+    top: 120px;
+}
+
+.inputB {
+position: relative;
+left: 130px;
+top: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:50px;
+    right:125px;
+  }
+
+.minput {
+    position: relative;
+    right: 515px;
+    top: 50px;
+}
+.temp {
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 72px;
+    color: #000000;
+  
+}
+
+.città {
+
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 40px;
+  
+
+    color: #000000;
+}
+.ntempo{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+   
+
+    color: #000000;
+}
+
+.bottone{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background:#E01A4F;
+    border-radius: 500px;
+    margin: 0 auto;
+    top:375px;
+    left: 200px;
+    box-shadow: 0px 4px 10px 3px rgba(224, 26, 79, 0.25);
+}
