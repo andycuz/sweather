@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!--AC/sweather-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="searchbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>sweather.</title>
+</head>
+
+<body>
+<!--AC/apro griglia css-->
+    <div class="grid-container">
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            <!--AC/logo-->
+            <div class="logo">
+                <h1 class="logo animate__animated animate__fadeInDown animate__delay-1s">sweather.</h1>
+            </div>
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            <!--AC/contenitore app-->
+            <div class="app animate__animated animate__fadeIn animate__delay-1s">
+                <!--AC/input utente (può dare problemi con Firefox, testato su Chrome)-->
+                <div class="inputB">
+                    <label class="field field_v1">
+                        <input class="field__input" placeholder="ex:Aosta" required>
+                        <span class="field__label-wrap" style="font-family:'Montserrat">
+                            <span class="field__label">Inserisci la tua città</span>
+                        </span>
+                    </label>
+                </div>
+                <!--AC/Contenitore dati output -->
+                <div class="flex-container">
+                    <div class="temp">
+                    </div>
+                    <div class="città">
+                    </div>
+                    <div class="ntempo">
+                    </div>
+                </div>
+                <!--AC/contenitore icona animata-->
+                <div class=iconContainer animate__animated animate__fadeIn">
+                </div>          
+            </div>
+        </div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
